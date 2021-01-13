@@ -1,0 +1,85 @@
+{
+	"info": {
+		"_postman_id": "80c82ba3-7b49-4834-ab63-8678c9a53dcb",
+		"name": "OPTIONS preflight",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "POST upload options",
+			"request": {
+				"method": "OPTIONS",
+				"header": [
+					{
+						"key": "Accept",
+						"type": "text",
+						"value": "*/*"
+					},
+					{
+						"key": "Accept-Encoding",
+						"type": "text",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "Accept-Language",
+						"type": "text",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "Access-Control-Request-Headers",
+						"type": "text",
+						"value": "access-control-allow-origin"
+					},
+					{
+						"key": "Access-Control-Request-Method",
+						"type": "text",
+						"value": "POST"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive",
+						"type": "text"
+					},
+					{
+						"key": "Host",
+						"value": "{{domain}}",
+						"type": "text"
+					},
+					{
+						"key": "Origin",
+						"value": "http://localhost:8080",
+						"type": "text"
+					},
+					{
+						"key": "Date",
+						"value": "Wed, 13 Jan 2021 11:49:01 GMT",
+						"type": "text"
+					},
+					{
+						"key": "Server",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "file",
+					"file": {
+						"src": ""
+					}
+				},
+				"url": {
+					"raw": "http://{{domain}}/upload/document",
+					"protocol": "http",
+					"host": [
+						"{{domain}}"
+					],
+					"path": [
+						"upload",
+						"document"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
