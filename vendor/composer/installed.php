@@ -1,24 +1,24 @@
 <?php return array (
   'root' => 
   array (
-    'pretty_version' => '4.2.1',
-    'version' => '4.2.1.0',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => '68ba300cf22d38f66afd80f53f329c9787f8598a',
     'name' => 'cakephp/app',
   ),
   'versions' => 
   array (
     'cakephp/app' => 
     array (
-      'pretty_version' => '4.2.1',
-      'version' => '4.2.1.0',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => '68ba300cf22d38f66afd80f53f329c9787f8598a',
     ),
     'cakephp/bake' => 
     array (
@@ -387,6 +387,15 @@
       array (
         0 => '~2.0',
       ),
+    ),
+    'ozee31/cakephp-cors' => 
+    array (
+      'pretty_version' => 'v2.0.0',
+      'version' => '2.0.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'fc45012d85972b8b2a4e9af7aef57fef033d16f9',
     ),
     'phar-io/manifest' => 
     array (
